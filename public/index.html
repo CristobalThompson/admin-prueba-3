@@ -7,6 +7,7 @@
   <meta name="description" content="Practica para la Cátedra 3 de Administración de Empresas con frases, alternativas y un desafío sin errores.">
   <title>Admin · Sala de estudio</title>
   <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <script src="tema.js"></script>
   <link rel="stylesheet" href="estilos.css">
   <script src="banco.js" defer></script>
   <script src="app.js" defer></script>
@@ -28,7 +29,15 @@
     <div class="rail-bottom"><span class="status-dot" aria-hidden="true"></span><div><strong>Cátedra 3</strong><small>Unidades 3, 4 y 5</small></div></div>
   </aside>
   <main id="contenido" class="main" tabindex="-1">
-    <header class="topbar"><span>Administración de Empresas</span><span class="course-code">ICA 4121</span></header>
+    <header class="topbar">
+      <div class="course-info">
+        <span>Administración de Empresas</span>
+        <span class="course-code">ICA 4121</span>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" hidden>
+        <span aria-hidden="true">☾</span> Modo oscuro
+      </button>
+    </header>
     <div id="view"></div>
     <noscript>Activa JavaScript en tu navegador para usar los ejercicios.</noscript>
   </main>
