@@ -12,14 +12,8 @@ Abre `public/index.html` directamente o, desde la raíz del repositorio, ejecuta
 
 ## Publicar en Vercel
 
-1. Crea un repositorio vacío en GitHub y sube este Git local:
-
-   ```sh
-   git remote add origin https://github.com/TU-USUARIO/estudio-admin.git
-   git push -u origin main
-   ```
-
-2. En [Vercel](https://vercel.com/new), importa el repositorio. Deja la raíz del proyecto en `.` y pulsa **Deploy**.
+1. En [Vercel](https://vercel.com/new), importa `CristobalThompson/admin-prueba-3` desde GitHub.
+2. Deja **Root Directory** en `.` y pulsa **Deploy**. La rama de producción es `main`.
 
 `vercel.json` indica que se sirva `public/` sin comando de compilación. El sitio no requiere dependencias, servidor de aplicación ni variables de entorno. Consulta la [documentación de configuración de Vercel](https://vercel.com/docs/builds/configure-a-build).
 
