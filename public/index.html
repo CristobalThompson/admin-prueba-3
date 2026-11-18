@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17221e">
+  <meta name="description" content="Practica para la Cátedra 3 de Administración de Empresas con frases, alternativas y un desafío sin errores.">
+  <title>Admin · Sala de estudio</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilos.css">
+  <script src="banco.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <aside class="rail">
+    <button class="brand" type="button" data-mode="home">
+      <span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><strong>Admin</strong><small>SALA DE ESTUDIO</small></span>
+    </button>
+    <nav aria-label="Modos de estudio">
+      <p class="nav-label">ESTUDIO</p>
+      <button type="button" data-mode="home" aria-current="page"><span class="nav-symbol" aria-hidden="true">⌂</span> Inicio</button>
+      <button type="button" data-mode="fill"><span class="nav-symbol" aria-hidden="true">Aa</span> Frases</button>
+      <button type="button" data-mode="choice"><span class="nav-symbol" aria-hidden="true">≡</span> Alternativas</button>
+      <button type="button" data-mode="challenge"><span class="nav-symbol" aria-hidden="true">ϟ</span> Desafío</button>
+    </nav>
+    <div class="rail-bottom"><span class="status-dot" aria-hidden="true"></span><div><strong>Cátedra 3</strong><small>Unidades 3, 4 y 5</small></div></div>
+  </aside>
+  <main id="contenido" class="main" tabindex="-1">
+    <header class="topbar"><span>Administración de Empresas</span><span class="course-code">ICA 4121</span></header>
+    <div id="view"></div>
+    <noscript>Activa JavaScript en tu navegador para usar los ejercicios.</noscript>
+  </main>
+</body>
+</html>
